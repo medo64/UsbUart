@@ -9,7 +9,7 @@ RATINGS
 
 BOARD
 
-  o Board size ...........: 36.00 x 20.00 mm (1.12 sqin)
+  o Board size ...........: 32.00 x 20.00 mm (0.99 sqin)
 
 
 PARTS                              
@@ -29,11 +29,11 @@ PARTS
   o J Header, 4w, female, right                                                 DK:S5440-ND
   - J1                                  5V TTL USART
 
-  o J USB-B                                                                     DK:ED2983-ND
-  - J2                                  USB
-
   o L Ferrite bead, 33Ω @100MHz, 50mΩ (0805)                                    DK:587-1909-1-ND
   - L1                                  FT232RL required
+
+  o P USB A, horizontal                                                         DK:WM17118-ND
+  - P1                                  USB
 
   o R 1K, 0.125W (0805)                                                         DK:RMCF0805JT1K00CT-ND
   - R1                                  LED
@@ -46,10 +46,10 @@ RECOMMENDED SOLDERING ORDER
 
   o Top
     - U1
-    - C1 C2
-    - DS1
-    - L1
-    - C3
+    - C1 C2 C3
     - R1
+    - L1
+    - DS1
     - C4
-    - J1 J2
+    - P1
+    - J1
