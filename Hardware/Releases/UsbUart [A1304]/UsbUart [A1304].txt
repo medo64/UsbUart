@@ -1,0 +1,55 @@
+= UsbUart =
+
+
+RATINGS
+
+  o Input voltage ........: 5 V
+  o Input current ........: 500 mA
+
+
+BOARD
+
+  o Board size ...........: 32.00 x 20.00 mm (0.99 sqin)
+
+
+PARTS                              
+
+  o C 10nF, C0G (0805)                                                          DK:445-6947-1-ND
+  - C1                                  FT232RL required
+
+  o C 100nF, X7R (0805)                                                         DK:399-1170-1-ND
+  - C2 C3                               FT232RL required
+
+  o C 4.7uF, ceramic (0805)                                                     DK:587-1302-1-ND
+  - C4                                  FT232RL required
+
+  o DS LED red, 20mA (0805)                                                     DK:475-1415-1-ND
+  - DS1                                 Activity
+
+  o J Header, 4w, female, right                                                 DK:S5440-ND
+  - J1                                  5V TTL USART
+
+  o L Ferrite bead, 33Ω @100MHz, 50mΩ (0805)                                    DK:587-1909-1-ND
+  - L1                                  FT232RL required
+
+  o P USB A, horizontal                                                         DK:WM17118-ND
+  - P1                                  USB
+
+  o R 1K, 0.125W (0805)                                                         DK:RMCF0805JT1K00CT-ND
+  - R1                                  LED
+
+  o U FT232RL (SSOP-28)                                                         DK:768-1007-1-ND
+  - U1
+
+
+RECOMMENDED SOLDERING ORDER
+
+  o Top
+    - U1
+    - C1 C2 C3
+    - R1
+    - L1
+    - DS1
+    - C4
+    - P1
+    - J1
