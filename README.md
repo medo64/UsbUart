@@ -3,14 +3,16 @@ UsbUart
 
 Simple USB to UART board based on FT232RL.
 
-| Ratings                |
+
+## Ratings ##
+
+|               |        |
 |---------------|-------:|
 | Input voltage | 5 V    |
 | Input current | 500 mA |
 
 
-Pinout
-------
+## Pinout ##
 
 |  1  |  2  |  3  |  4  |
 |:---:|:---:|:---:|:---:|
